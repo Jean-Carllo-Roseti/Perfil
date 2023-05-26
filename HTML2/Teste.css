@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    color: blue;
+}
+
+#ccxp {
+    color: gold;
+} 
+
+.roda{
+    color: rebeccapurple;
+} 
+
+*{
+    color: red;
+}
+

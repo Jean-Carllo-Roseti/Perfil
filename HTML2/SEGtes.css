@@ -1,3 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 #Aang {
     color: red;
+}
+
+header li {
+    display: inline;
+}
+
+.conteiners {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+}
+
+.articles article img {
+    height: 180px;
 }

@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+
 header,
 #tatu,
 #titulotema,
@@ -19,6 +21,9 @@ header h1,
 #tatu {
     font-weight: normal;
 }
+
+
+
 
 header nav li {
     display: inline;
@@ -213,7 +218,6 @@ ul.modelos li figcaption {
     justify-content: space-between;
 }
 
-
 #cont,
 #tatu { 
     max-width: 100%;
@@ -235,7 +239,7 @@ ul.modelos li figcaption {
 }
 
 #filial {
-    margin-right: 136px;
+    margin-right: 155px;
 }
 
 #reto {
@@ -287,5 +291,12 @@ footer {
     margin-bottom: 16px;
 }
 
+
+
+#fale,
+#fil {
+    margin-bottom: 16px;
+
+}
 
 /*dificuldade em organizar os comando background, estão diferentes dos headre e footer.*/

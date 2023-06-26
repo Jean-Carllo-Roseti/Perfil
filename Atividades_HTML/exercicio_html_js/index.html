@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>LocadoraBuster</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>
+                Operadora Morris
+            </h1>
+            <h2>
+                Consulta de créditos
+            </h2>
+        </header>
+            <form id="formJS" class="formulario">
+                <input id="nome-beneficiario" required type="text"   placeholder="Nome completo">
+                <p class="erroNome">Nome esta incompleto.</p>
+                <input id="naConta" required type="number" placeholder="Crédito disponível" >
+                <input id="limite" required type="number" placeholder="Crédito utilizado"  >
+                <button type="submit">Consultar</button>
+            </form>
+            <p class="mensagemFim"> </p> <p class="negativo "></p> <p class="positivo"></p>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

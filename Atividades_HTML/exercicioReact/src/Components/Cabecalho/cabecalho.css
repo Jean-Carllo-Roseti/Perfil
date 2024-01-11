@@ -1,0 +1,9 @@
+.container {
+    width: 1024px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.ajuste {
+    text-align: center;
+}

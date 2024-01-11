@@ -6,6 +6,7 @@ function App() {
         <header>
           <div className="container">
             <h1>Calculadora IMC</h1>
+            <p>Calcule seu IMC, basta inserir altura e peso, o resto eu calculo!!</p>
           <div>
             <img src="https://www.drrogermoura.com.br/images/artigos/tabela-imc.png" alt="tabela de informações sobre IMC" />
           </div>

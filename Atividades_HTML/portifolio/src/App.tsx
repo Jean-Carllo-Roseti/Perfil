@@ -1,8 +1,13 @@
-
-import Teste from './teste'
+import Teste from "./teste"
+import Mais from "./algo"
 
 function App() {
-  return (<Teste />  )
+  return (
+    <>
+      <Teste />
+      <Mais />
+    </>
+  )
 }
 
 export default App

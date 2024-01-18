@@ -1,11 +1,11 @@
-import Teste from "./teste"
-import Mais from "./algo"
+import Sidebar from "./containers/Sidebar"
+import EstiloGlobal from "./styles"
 
 function App() {
   return (
     <>
-      <Teste />
-      <Mais />
+      <Sidebar />
+      <EstiloGlobal />
     </>
   )
 }

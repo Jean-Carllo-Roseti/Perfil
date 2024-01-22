@@ -7,6 +7,11 @@ export const GithubSecao = styled.div`
 
   img {
     height: 102px; //feito a mão, foi mt adequado.
+
+    @media (max-width: 768px) {
+      height: auto;
+      width: 100%; // imagem correspodne perfeitamente a responsividade.
+    }
   }
 
   @media (max-width: 768px) {

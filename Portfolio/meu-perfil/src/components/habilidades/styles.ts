@@ -18,25 +18,20 @@ export const HabContent = styled.div`
     margin: 24px 0;
   }
 `
+
 export const HabList = styled.ul`
   display: flex;
-  flex-wrap: wrap; /* Permitindo que os itens sejam quebrados em várias linhas, se necessário */
-  justify-content: center; /* Centralizando os itens horizontalmente */
+  flex-wrap: wrap;
+  justify-content: center;
   list-style: none;
-  padding: 0; /* Removendo padding padrão */
 
   li {
     margin-right: 36px;
-    transition: transform 0.5s ease;
-
-    :hover {
-      transform: scale(1.1);
-    }
 
     p {
-      font-weight: bold; /* Deixando o texto em negrito para melhor visualização */
+      font-weight: bold;
     }
-
+  }
 `
 
 export const Icone = styled.img`

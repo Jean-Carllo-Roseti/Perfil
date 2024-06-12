@@ -45,14 +45,6 @@ const Habilidades = () => {
               <Icone src={RD} alt="" />
             </li>
             <li>
-              <p>BootStrap</p>
-              <Icone src={Boot} alt="" />
-            </li>
-            <li>
-              <p>Jest</p>
-              <Icone src={Jest} alt="" />
-            </li>
-            <li>
               <p>Cypress</p>
               <Icone src={Cypress} alt="" />
             </li>
@@ -88,6 +80,14 @@ const Habilidades = () => {
             <li>
               <p>Grunt</p>
               <Icone src={Grunt} alt="" />
+            </li>
+            <li>
+              <p>BootStrap</p>
+              <Icone src={Boot} alt="" />
+            </li>
+            <li>
+              <p>Jest</p>
+              <Icone src={Jest} alt="" />
             </li>
           </HabList>
         </div>

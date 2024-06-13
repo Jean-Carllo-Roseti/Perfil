@@ -1,6 +1,0 @@
-{
-  "editor.formatOnsave": false,
-  "editor.codeActionsOnsave": {
-    "source.filAll.eslint": true
-  }
-}

@@ -49,11 +49,11 @@ const Habilidades = () => {
               <Icone src={Cypress} alt="" />
             </li>
             <li>
-              <p>Less</p>
+              <p>Sass</p>
               <Icone src={Sass} alt="" />
             </li>
             <li>
-              <p>Sass</p>
+              <p>Less</p>
               <Icone src={Less} alt="" />
             </li>
           </HabList>

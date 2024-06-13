@@ -1,5 +1,7 @@
+import Footer from './components/footer'
 import Habilidades from './components/habilidades'
 import Header from './components/header'
+import Projetos from './components/projetos'
 import SobreMim from './components/sobreMim'
 
 import { GlobalCss } from './styles'
@@ -11,6 +13,8 @@ function App() {
       <Header />
       <SobreMim />
       <Habilidades />
+      <Projetos />
+      <Footer />
     </div>
   )
 }

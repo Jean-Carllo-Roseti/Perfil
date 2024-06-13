@@ -29,31 +29,31 @@ const projects = [
     technologies: ['React', 'Redux', 'Node.js'],
     liveLink: 'https://amiibo-xi.vercel.app/',
     repoLink: 'https://github.com/Jean-Carllo-Roseti/Amiibo'
-  },
-  {
-    title: 'Amiibos',
-    image: Amiibo,
-    description:
-      'Esta aplicação foi desenvolvida para oferecer uma consulta fácil sobre amiibos, fornecendo informações essenciais sobre cada lançamento e os jogos compatíveis.',
-    technologies: ['React', 'Redux', 'Node.js'],
-    liveLink: 'https://amiibo-xi.vercel.app/',
-    repoLink: 'https://github.com/Jean-Carllo-Roseti/Amiibo'
-  },
-  {
-    title: 'Amiibos',
-    image: Amiibo,
-    description:
-      'Esta aplicação foi desenvolvida para oferecer uma consulta fácil sobre amiibos, fornecendo informações essenciais sobre cada lançamento e os jogos compatíveis.',
-    technologies: ['React', 'Redux', 'Node.js'],
-    liveLink: 'https://amiibo-xi.vercel.app/',
-    repoLink: 'https://github.com/Jean-Carllo-Roseti/Amiibo'
   }
+  // {
+  //   title: 'Amiibos',
+  //   image: Amiibo,
+  //   description:
+  //     'Esta aplicação foi desenvolvida para oferecer uma consulta fácil sobre amiibos, fornecendo informações essenciais sobre cada lançamento e os jogos compatíveis.',
+  //   technologies: ['React', 'Redux', 'Node.js'],
+  //   liveLink: 'https://amiibo-xi.vercel.app/',
+  //   repoLink: 'https://github.com/Jean-Carllo-Roseti/Amiibo'
+  // },
+  // {
+  //   title: 'Amiibos',
+  //   image: Amiibo,
+  //   description:
+  //     'Esta aplicação foi desenvolvida para oferecer uma consulta fácil sobre amiibos, fornecendo informações essenciais sobre cada lançamento e os jogos compatíveis.',
+  //   technologies: ['React', 'Redux', 'Node.js'],
+  //   liveLink: 'https://amiibo-xi.vercel.app/',
+  //   repoLink: 'https://github.com/Jean-Carllo-Roseti/Amiibo'
+  // }
   // Adicione mais projetos conforme necessário
 ]
 
 const Projetos = () => {
   return (
-    <PortfolioContent>
+    <PortfolioContent id="projetos">
       <h2>Meus Projetos</h2>
       <CardsColunas>
         {projects.map((project, index) => (

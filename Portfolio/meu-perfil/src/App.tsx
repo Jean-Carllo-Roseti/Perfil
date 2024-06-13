@@ -11,9 +11,15 @@ function App() {
     <div className="App">
       <GlobalCss />
       <Header />
-      <SobreMim />
-      <Habilidades />
-      <Projetos />
+      <div id="sobre">
+        <SobreMim />
+      </div>
+      <div id="habilidades">
+        <Habilidades />
+      </div>
+      <div id="projetos">
+        <Projetos />
+      </div>
       <Footer />
     </div>
   )

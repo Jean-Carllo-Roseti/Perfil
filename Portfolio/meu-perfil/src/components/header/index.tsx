@@ -6,10 +6,15 @@ const Header = () => {
       <Hcontent>
         <h1>Jean Carllo</h1>
         <Hlist>
-          <li>Sobre mim</li>
-          <li>Habilidades</li>
-          <li>Projetos</li>
-          <li>Contatos</li>
+          <li>
+            <a href="#sobre">Sobre mim</a>
+          </li>
+          <li>
+            <a href="#habilidades">Habilidades</a>
+          </li>
+          <li>
+            <a href="#projetos">Projetos</a>
+          </li>
         </Hlist>
       </Hcontent>
     </HContainer>

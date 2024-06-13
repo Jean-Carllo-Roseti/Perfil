@@ -21,6 +21,3 @@ export const Hlist = styled.ul`
     margin-left: 20px;
   }
 `
-// export const Hitem = styled.li`
-//   margin-left: 20px;
-// `

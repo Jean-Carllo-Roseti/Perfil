@@ -13,6 +13,7 @@ import {
   Imagem,
   Contatos
 } from './styles'
+
 import Foto from '../../assets/image/jeanPerfil.jpeg'
 
 const SobreMim = () => {

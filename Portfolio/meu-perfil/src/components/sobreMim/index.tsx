@@ -48,11 +48,7 @@ const SobreMim = () => {
               >
                 <FaWhatsapp size={30} />
               </a>
-              <a
-                href="/CvCvAlteranativo.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href="" target="_blank" rel="noopener noreferrer">
                 <FaFileAlt size={30} />
               </a>
             </Contatos>
